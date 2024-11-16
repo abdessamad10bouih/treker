@@ -12,6 +12,7 @@ function Navbar() {
         <Tabs direction='/fonctionalities'>Fonctionnalités</Tabs>
         <Tabs direction='/tarifs'>Tarifs</Tabs>
         <Tabs direction='/faq'>FAQ</Tabs>
+        <Tabs direction='/planner'>planner</Tabs>
       </ul>
       <div className='w-[33%] h-full flex items-center justify-end gap-5'>
         <Link to='/connexion' className='text-secondary'>Connexion</Link>
