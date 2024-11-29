@@ -23,3 +23,7 @@
     background-color: #FF3D00;
     border-radius: 10px;
 }
+
+body{
+    overflow-x: hidden;
+}
