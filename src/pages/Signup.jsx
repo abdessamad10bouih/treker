@@ -13,10 +13,10 @@ function Signup() {
     return (
         <section className='w-full flex flex-col items-center'>
             <Navbar />
-            <main className='w-full flex h-[80vh] relative items-center flex-col justify-center'>
-                <img src="/lamp.png" className='absolute w-[200px] top-10 right-28' alt="" />
-                <img src="/book.png" className='absolute w-[200px] bottom-0 left-10' alt="" />
-                <form className='w-[30%] gap-4 mt-6 px-5 flex flex-col items-center justify-center' action="">
+            <main className='w-full flex lg:h-[80vh] relative items-center flex-col justify-center'>
+                <img src="/lamp.png" className='hidden lg:flex absolute w-[200px] top-10 right-28' alt="" />
+                <img src="/book.png" className='hidden lg:flex absolute w-[200px] bottom-0 left-10' alt="" />
+                <form className='w-full lg:w-[30%] gap-4 mt-6 px-5 flex flex-col items-center justify-center' action="">
                     <img src="/logo.png" className='w-[60px]' alt="" />
                     <h1>Crée Un compte</h1>
                     <div className='w-full h-12 cursor-pointer border flex items-center justify-center gap-6 border-black rounded-xl'>

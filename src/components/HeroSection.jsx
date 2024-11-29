@@ -14,7 +14,7 @@ function HeroSection() {
                 </div>
                 <p className='hidden lg:flex'>Créez des itinéraires écoresponsables, réduisez votre impact et contribuez à un monde plus vert.</p>
                 <Link to='/connexion' className='text-white flex items-center justify-center bg-secondary w-28 h-12 rounded-full shadow-xl'>Connexion</Link>
-                <Link to='/inscription' className='text-white flex items-center justify-center bg-primary w-28 h-12 rounded-full shadow-xl'>Inscription</Link>
+                <Link to='/inscription' className='text-white flex items-center justify-center bg-primary w-28 h-12 rounded-full shadow-xl lg:hidden'>Inscription</Link>
             </div>
             <div className='w-full h-[70%] relative flex items-center justify-center order-1 lg:order-2 lg:w-[60%] lg:h-full lg:flex lg:items-center lg:justify-center'>
                 <div className='w-full h-full' style={{ background: 'url("/heroImg.png") no-repeat center center/cover' }}></div>
